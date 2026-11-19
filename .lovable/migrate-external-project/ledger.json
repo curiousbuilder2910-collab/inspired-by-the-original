@@ -1,0 +1,20 @@
+{
+  "source": "code-archive",
+  "archive": "scenescape-layout-optimized.zip",
+  "capabilities": [
+    { "capability": "code", "source": "TanStack static homepage, navigation, animated sections and interactive map", "outcome": "recreate", "status": "in_progress", "next_action": "Port source components and validate the homepage." },
+    { "capability": "schema", "source": "No database schema or store found", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "records", "source": "No database or record export found", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "auth identities", "source": "No authentication integration found", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "authorization", "source": "No roles or access rules found", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "uploaded file bytes", "source": "Four bundled product/brand images", "outcome": "migrate", "status": "in_progress", "next_action": "Preserve and render all original artwork." },
+    { "capability": "external providers", "source": "Google Fonts stylesheet only; no app API or provider integration found", "outcome": "preserve", "status": "pending", "next_action": "Keep the source font stylesheet and check the homepage rendering." },
+    { "capability": "public endpoints", "source": "None found", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "callbacks", "source": "None found", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "webhooks", "source": "None found", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "schedules", "source": "None found", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "secrets", "source": "No application secret variables found", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "cutover", "source": "Static site; no external service or data cutover found", "outcome": "not_applicable", "status": "verified", "next_action": null },
+    { "capability": "verification", "source": "Target project", "outcome": "validate", "status": "pending", "next_action": "Verify preview rendering, navigation, map selection and test results." }
+  ]
+}
